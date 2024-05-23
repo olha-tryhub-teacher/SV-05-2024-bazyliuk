@@ -1,0 +1,164 @@
+body {
+    font-family: "Yanone Kaffeesatz", sans-serif;
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+    margin: 0;
+    font-size: 22px;
+   
+}
+.header-img{
+    background-image: url(https://iili.io/JggJyzX.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+
+
+.logo, .logo-bottom{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(251, 202, 37);
+    display: block;
+}
+
+.logo{
+    margin: auto;
+}
+
+
+.header-container{
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    width: 590px;
+    padding: 20px;
+    align-items: center;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 300;
+    text-shadow: 0 0 10px black;
+}
+
+
+.navigation{
+    height: 80px;
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.nav-link, .news-link{
+    margin: auto 0;
+    text-decoration: none;
+    color: white;
+}
+
+
+h2{
+    text-align: center;
+    margin: 30px auto;
+    margin-top: 100px;
+}
+
+
+.open-door, .details{
+    text-align: center;
+    display: block;
+    box-shadow:5px 5px 10px black;
+    width: 100px;
+    margin: 0 auto;
+    text-decoration: none;
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+
+.piece-of-news, .faculty{
+    border: 3px solid rgb(50, 168, 82);
+    margin: 10px;
+    padding: 10px;
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+    box-shadow: 2px 2px 8px black;
+    
+}
+
+.piece-of-news{
+    width: 30%;
+}
+
+
+.news{
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+}
+
+
+.news-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.news-link{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.details{
+    background-image: linear-gradient(0deg, rgb(249, 66, 6),rgb(250, 134, 22),rgb(251, 202, 37));
+    color: white;
+}
+
+
+.faculties-img{
+    padding: 10px;
+    width: 45%;
+    height: auto;
+}
+
+
+.right-side{
+    margin: auto;
+    width: 45%;
+    padding: 10px;
+}
+
+
+.faculty{
+    display: flex;
+    flex-direction: row;
+}
+
+.details:hover{
+    transition: 1s;
+    background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));
+}
+
+footer{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: radial-gradient(circle at bottom center, rgb(251,201,37),rgb(50,168,82));
+}
+
+footer img{
+    height: 30px;
+    width: auto;
+    border-radius: 7px;
+}
+
